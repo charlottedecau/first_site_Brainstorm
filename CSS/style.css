@@ -1,0 +1,117 @@
+.Frontal_Lobe{
+  text-align: 12,203px
+  text-width:288px
+}
+title {
+text-align: center;
+color: black;
+font-size: 28px;
+font-family: times;
+}
+h1 {
+  font-family: 'Faster One', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #4F1173;
+  margin:60px 0 0 0;
+}
+h2 {
+font-family: times;
+text-align: center;
+font-size: 35px;
+color: #69139B;
+}
+h3 {
+  font-family: times;
+  text-align: left;
+  font-size: 20px;
+  color: black;
+}
+#Frontal_lobe {
+  position: absolute;
+  left: 725px;
+  top: 253px;
+}
+#Parietal_lobe {
+  position: absolute;
+  left: 765px;
+  top: 393px;
+}
+#Occipital_lobe {
+  position: absolute;
+  left: 785px;
+  top: 513px;
+}
+#Temporal_lobe {
+  position: absolute;
+  left: 775px;
+  top: 653px;
+}
+#Cerebellum {
+  position: absolute;
+  left: 685px;
+  top: 773px;
+}
+#Brainstem{
+  position: absolute;
+  left: 535px;
+  top: 913px;
+}
+p{
+  color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(bottom, #9F3ED8, #E7C8F9);
+    background: -webkit-linear-gradient(bottom, #9F3ED8, #E7C8F9);
+  }
+p:hover {
+background-color: red;
+  }
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <img src="" />
+
+#map {
+    position:relative
+}
+.map_title {
+    position:absolute;
+}
+#map ul {
+  list-style: none;
+}
+#map li {
+  position: absolute;
+  z-index: 20;
+  text-indent: -1000em;
+  display: none;
+}
+li {
+  font-family: times;
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    color:red;
+    padding: 0;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brainstorm</title>
+<link a href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Exo">
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<script src="JS/jquery-3.3.1.min.js"></script>
+<script src="JS/graph.js"></script>
+<style>
+#panel, .flip {
+    font-size: 16px;
+    padding: 10px;
+    background-color:blue;
+    color: green;
+}
+#panel {
+    display: none;
+}
+</style>
+</head>
+<body>
+  <h1>Brainstorm</h1>
+  <h2>Burst Your Brain Bubble</h2>
+<a href="index2.html"><button>About Us</button></a>
+<div>
+<img src="Images/brainstormpic.png" class="center" usemap="#brainmap" />
+<map name="brainmap">
+  <area id="Frontal_lobe" shape="poly" coords="12,203, 300,12, 343,269,  98,396" alt="Frontal Lobe" href="#Frontal_lobe"/>
+  <area id="Temporal_lobe" shape="poly" coords="143,353, 491,283, 539,488, 203,473" alt="Temporal Lobe" href="#Temporal_lobe"/>
+  <area id="Occipital_lobe" shape="poly" coords="610,271, 740,285, 730,460, 579,491"   alt="Occipital Lobe" href="#Occipital_lobe"/>
+  <area id="Parietal_lobe" shape="poly" coords="305,20, 634,118, 490,280, 270,286" alt="Parietal Lobe" href="#Parietal_lobe"/>
+  <area id="Cerebellum" shape="poly" coords="391,481, 650,498, 600,583, 420,559"  alt="Cerebellum" href="#Cerebellum"/>
+  <area id="Brainstem" shape="poly" coords="281,495, 389,482, 399,653, 281,657" alt="Brainstem" href="#Brainstem"/>
+  <div id="Frontal_lobe">
+    <h3 ="Frontal_Lobe" Frontal Lobe</h3>
+    <p>The frontal lobe is the part of the brain that control important cognitive skills in humans, such as emotional expression, probelm solving, memory, language, judgement, and sexual behaviours. It is, in essence, the "control panel" of our personality and our ability to communicate"</p>
+  </div>
+
+  <div id="Parietal_lobe">
+    <h3 ="Parietal_Lobe" Parietal Lobe</h3>
+    <p>The parietal lobe is divided into 2 hemispheres. Its functions in processing sensory information regarding the location of parts of the body as well as interpreting visual information and processing language and mathematics</p>
+  </div>
+
+  <div id="Occipital_lobe" onClick="divFunction()">
+  <h3 ="Occipital_Lobe" Occipital Lobe</h3>
+    <p>The occiptal lobe is one of the four major lobes of the cerebral cortex in the brain of mammals. The occipital lobe is the visual processing center of the mammalian brain containing most of the anatomical region of the visual cortex</p>
+  </div>
+
+  <div id="Temporal_lobe" onClick="divFunction()">
+    <h3 ="Temporal_Lobe" Temporal Lobe</h3>
+  <p>The temporal lobe is one of the four major lobes of the cerebral cortex in the brain of mammals. The temporal lobe is located beneath the lateral fissure on both cerebral hemispheres of the mammalian brain</p>
+  </div>
+
+  <div id="Cerebellum" onClick="divFunction()">
+    <h3 ="Cerebellum" Cerebellum</h3>
+    <p>The cerebellum receives information from the sensory systems, the spinal cord, and other parts of the brain and then regulates motor movements. The cerebellum coordinates voluntary movements such as posture, balance, coordination, and speech, resulting in smooth and balanced muscular activity</p>
+  </div>
+
+  <div id="Brainstem" onClick="divFunction()">
+  <h3 ="Brainstem" Brainstem</h3>
+  <p>The brain stem controls the flow of messages between the brain and the rest of the body, and it also controls basic body functions such as breathing, swallowing, heart rate, blood pressure, consciousness, and whether one is awake or sleepy. The brain stem consists of the midbrain, pons, and medulla oblongata.</p>
+  </div>
+  <ul>
+      <li id="Frontal_lobe"><a href="#Frontal_lobe">The Frontal Lobe </a></li>
+      <li id="Parietal_lobe"><a href="#Parietal_lobe">The Parietal Lobe </a></li>
+      <li id="Occipital_lobe"><a href="#Occipital_lobe">The Occiptal Lobe</a></li>
+      <li id="Temporal_lobe"><a href="#Temporal_lobe">The Temporal Lobe </a></li>
+      <li id="Cerebellum"><a href="#Cerebellum">The Cerebellum</a></li>
+      <li id="Brainstem"><a href="#Brainstem">The Brainstem</a></li>
+    </ul>
+</div>
+
+
+</body>
+
+</html>
